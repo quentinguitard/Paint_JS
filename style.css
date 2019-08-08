@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(156, 155, 155);
+    border-bottom: 2px solid black;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+}
+
+.top-bar * {
+    margin: 5px;
+}
+
+#draw {
+    display: block;
+}
